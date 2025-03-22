@@ -1,0 +1,91 @@
+.Title{
+    display: flex ;  
+        align-content: stretch;
+        justify-content: space-around;
+    }
+    .navbar{
+        display: flex
+        ;
+            justify-content: center;
+            list-style: none;
+            justify-content: space-evenly;
+            margin-top: 20px;
+        }
+    .bg-image{
+        background: url('https://source.unsplash.com/1600x900/?nature') no-repeat center center;
+        background-size: cover;
+        height: 100vh;
+    }
+    .Vote-Movie{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+    .Top-discussion{
+        display: flex ;
+     justify-content: space-evenly;
+     margin-top: 50px;
+    }
+    .movie-description{
+        margin: 50px;
+    }
+.container{
+    width: 100%;
+    max-width: 1200px;
+}
+.carousel-inner img{
+    width: 100%;  
+    height: auto; 
+}
+.btn-primary{
+    padding: 10px;
+    width: 100px;
+}
+.card {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+.card-img-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.card {
+    position: relative;
+    width: 100%;
+    max-width: 300px;
+    overflow: hidden;  /* Hide any text outside of the card */
+}
+
+/* Image settings */
+.card-img-top {
+    width: 100%;
+    height: auto;
+}
+
+/* Overlay text (Initially hidden) */
+.card-img-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    opacity: 0;  /* Hide text initially */
+    transition: opacity 0.3s ease;  /* Smooth transition for visibility */
+}
+
+/* Show text when hovering over the card */
+.card:hover .card-img-overlay {
+    opacity: 1;  /* Make the text visible */
+}
