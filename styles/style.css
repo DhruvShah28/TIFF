@@ -3,14 +3,21 @@ waiting for font size and font color and all heading and text element*/
 
 body {
     background-color: #f8f9fa;
+    
 }
 .register-container {
     background: #fff;
-    padding: 30px;
+    padding: 40px 30px;
     border-radius: 10px;
     border: 2px solid #DAE3EA;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
+
 .form-check-label {
     font-size: 0.9rem;
+}
+
+#err_sec{
+    display: none;
+    color: red;
 }

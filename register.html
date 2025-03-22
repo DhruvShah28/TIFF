@@ -13,79 +13,111 @@
 </head>
 <body>
     <!-- header not requiered here -->
-    <h3 class="text-center mb-4">TIFF LIVE</h3>
+    
+    <!-- Main -->
+    <main>
+    <!-- Name Section -->
+        <section>
+            <h2 class="text-center mb-4">TIFF LIVE</h2>
+        </section>
+        <!-- registration form section -->
+        <section>
+            <div class="container d-flex justify-content-center align-items-center">
+                <div class="register-container">
+                    <h3 class="text-center mb-3">Register your account</h3>
+                    
+                    <form action="login.html" name="register_form">
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" name="email" placeholder="johndoe@test.ca">
+                        </div>
+        
+                        <div class="mb-3">
+                            <label for="pass" class="form-label">Password</label>
+                            <input type="password" class="form-control" id="pass" name="pass" >
+                        </div>
+        
+                        <div class="mb-3">
+                            <label for="conf_pass" class="form-label">Confirm Password</label>
+                            <input type="password" class="form-control" id="conf_pass" name="conf_pass" >
+                        </div>
+        
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="fname" class="form-label">First Name</label>
+                                <input type="text" class="form-control" id="fname" name="fname" >
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="lname" class="form-label">Last Name</label>
+                                <input type="text" class="form-control" id="lname" name="lname" >
+                            </div>
+                        </div>
+        
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="dob" class="form-label">D.O.B</label>
+                                <input type="date" class="form-control" id="dob" name="dob" >
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="lang" class="form-label">Language</label>
+                                <select class="form-select" id="lang" name="lang">
+                                    <option selected disabled value="XX">Select option</option>
+                                    <option value="eng">English</option>
+                                    <option value="fren">French</option>
+                                    </select>
+                            </div>
+                        </div>
+        
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="country" class="form-label">Country</label>
+                                <select class="form-select" id="country" name="country">
+                                    <option selected disabled value="XX">Select option</option>
+                                    <option value="usa">USA</option>
+                                    <option value="can">Canada</option>
+                                    <option value="uk">UK</option>
+                                    <option value="ind">India</option>
+                                    <option value="sing">Singapore</option>
+                                    <option value="china">China</option>
+                                    <option value="dub">Dubai</option>
+                                    <option value="oth">Other</option>
+                                </select>
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="postal" class="form-label">Postal Code</label>
+                                <input type="text" class="form-control" id="postal" name="postal" placeholder="A1A 1A1">
+                            </div>
+                        </div>
+        
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="terms" name="terms">
+                            <label class="form-check-label" for="terms">By signing up you agree to <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy</a></label>
+                        </div>
+        
+                        <div class="d-flex justify-content-center">
+                            <button type="submit" class="btn btn-primary">Register</button>
+                        </div>
 
-    <!-- registration form section -->
-    <section>
-        <div class="container d-flex justify-content-center align-items-center">
-            <div class="register-container">
-                <h5 class="text-center">Register your account</h5>
-                
-                <form>
-                    <div class="mb-3">
-                        <label for="email" class="form-label">Email</label>
-                        <input type="email" class="form-control" id="email" required>
-                    </div>
-    
-                    <div class="mb-3">
-                        <label for="password" class="form-label">Password</label>
-                        <input type="password" class="form-control" id="password" required>
-                    </div>
-    
-                    <div class="mb-3">
-                        <label for="confirm-password" class="form-label">Confirm Password</label>
-                        <input type="password" class="form-control" id="confirm-password" required>
-                    </div>
-    
-                    <div class="row">
-                        <div class="col-md-6 mb-3">
-                            <label for="first-name" class="form-label">First Name</label>
-                            <input type="text" class="form-control" id="first-name" required>
+                        <div id="err_sec" class="row">
+                            <div class="col-md-12 my-3">
+                                <p>ERROR:</p>
+                                <p id="error_text"></p>
+                            </div>
                         </div>
-                        <div class="col-md-6 mb-3">
-                            <label for="last-name" class="form-label">Last Name</label>
-                            <input type="text" class="form-control" id="last-name" required>
-                        </div>
-                    </div>
-    
-                    <div class="row">
-                        <div class="col-md-6 mb-3">
-                            <label for="dob" class="form-label">D.O.B</label>
-                            <input type="date" class="form-control" id="dob" required>
-                        </div>
-                        <div class="col-md-6 mb-3">
-                            <label for="language" class="form-label">Language</label>
-                            <input type="text" class="form-control" id="language" required>
-                        </div>
-                    </div>
-    
-                    <div class="row">
-                        <div class="col-md-6 mb-3">
-                            <label for="country" class="form-label">Country</label>
-                            <select class="form-select" id="country">
-                                <option selected>Select option</option>
-                                <option value="USA">USA</option>
-                                <option value="Canada">Canada</option>
-                                <option value="UK">UK</option>
-                            </select>
-                        </div>
-                        <div class="col-md-6 mb-3">
-                            <label for="postal-code" class="form-label">Postal Code</label>
-                            <input type="text" class="form-control" id="postal-code" required>
-                        </div>
-                    </div>
-    
-                    <div class="mb-3 form-check">
-                        <input type="checkbox" class="form-check-input" id="terms">
-                        <label class="form-check-label" for="terms">By signing up you agree to <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy</a></label>
-                    </div>
-    
-                    <button type="submit" class="btn btn-primary w-100">Register</button>
-    
-                    <p class="text-center mt-3">Already a member? <a href="">Sign In</a></p>
-                </form>
+        
+                        <p class="text-center mb-0 mt-3">Already a member? <a href="">Sign In</a></p>
+                    </form>
+                </div>
             </div>
+        </section>
+    </main>
+    <!-- Footer -->
+    <footer class="text-center mt-4">
+        <p>© Copyright TIFF 2025</p>
+        <div class="d-flex footer-sec">
+            <a href="#">Terms & Conditions</a> |
+            <a href="#">Privacy Policy</a>
         </div>
-    </section>
+    </footer>
 </body>
 </html>
