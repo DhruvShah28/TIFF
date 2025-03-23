@@ -26,7 +26,7 @@
                 <div class="login-container p-4 border rounded shadow bg-white">
                     <h3 class="text-center mb-3">Log In</h3>
                     
-                    <form action="dashboard.html" name="login_form">
+                    <form action="index.html" name="login_form">
                         <div class="mb-3">
                             <label for="log_email" class="form-label">Email</label>
                             <input type="email" class="form-control" id="log_email" name="log_email">
@@ -47,6 +47,13 @@
 
                         <div class="d-flex justify-content-center">
                             <button type="submit" class="btn btn-primary">Sign In</button>
+                        </div>
+
+                        <div id="err_sec" class="row">
+                            <div class="col-md-12 my-3">
+                                <p>ERROR:</p>
+                                <p id="error_text"></p>
+                            </div>
                         </div>
 
                         <p class="text-center mt-3">Not a member? <a href="register.html">Sign Up</a></p>
