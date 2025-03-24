@@ -28,27 +28,30 @@
                     
                     <form action="login.html" name="register_form">
                         <div class="mb-3">
-                            <label for="email" class="form-label">Email</label>
+                            <label for="email" class="form-label">Email *</label>
                             <input type="email" class="form-control" id="email" name="email" placeholder="johndoe@test.ca">
                         </div>
         
-                        <div class="mb-3">
-                            <label for="pass" class="form-label">Password</label>
-                            <input type="password" class="form-control" id="pass" name="pass" >
+                        <div class="mb-3 pass-container">
+                            <label for="pass" class="form-label">Password *</label>
+                            <input type="password" class="form-control pass-input" id="pass" name="pass" >
+                            <!-- <button type="button" class="toggle-pass" onclick="togglePassword('pass')">
+                                👁️
+                            </button> -->
                         </div>
         
                         <div class="mb-3">
-                            <label for="conf_pass" class="form-label">Confirm Password</label>
+                            <label for="conf_pass" class="form-label">Confirm Password *</label>
                             <input type="password" class="form-control" id="conf_pass" name="conf_pass" >
                         </div>
         
                         <div class="row">
                             <div class="col-md-6 mb-3">
-                                <label for="fname" class="form-label">First Name</label>
+                                <label for="fname" class="form-label">First Name *</label>
                                 <input type="text" class="form-control" id="fname" name="fname" >
                             </div>
                             <div class="col-md-6 mb-3">
-                                <label for="lname" class="form-label">Last Name</label>
+                                <label for="lname" class="form-label">Last Name *</label>
                                 <input type="text" class="form-control" id="lname" name="lname" >
                             </div>
                         </div>
