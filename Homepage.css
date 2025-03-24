@@ -89,3 +89,7 @@
 .card:hover .card-img-overlay {
     opacity: 1;  /* Make the text visible */
 }
+
+.movie-description{
+    color: white;
+}
