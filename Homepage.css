@@ -12,7 +12,7 @@
             margin-top: 20px;
         }
     .bg-image{
-        background: url('https://source.unsplash.com/1600x900/?nature') no-repeat center center;
+  
         background-size: cover;
         height: 100vh;
     }
@@ -43,8 +43,7 @@
 }
 .card {
     position: relative;
-    width: 100%;
-    max-width: 300px;
+    width: 500px;
 }
 
 .card-img-top {
@@ -61,8 +60,8 @@
 }
 .card {
     position: relative;
-    width: 100%;
-    max-width: 300px;
+    
+    
     overflow: hidden;  /* Hide any text outside of the card */
 }
 
@@ -81,8 +80,8 @@
     color: white;
     font-size: 1.5rem;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-    opacity: 0;  /* Hide text initially */
-    transition: opacity 0.3s ease;  /* Smooth transition for visibility */
+    opacity: 0;  
+    transition: opacity 0.3s ease;  
 }
 
 /* Show text when hovering over the card */
@@ -92,4 +91,59 @@
 
 .movie-description{
     color: white;
+    position: relative;
+    left: 20px;
+    bottom: 200px;
 }
+.Voting-section{
+    display: flex ;
+        align-content: flex-start;
+        justify-content: space-around;
+        margin:auto;
+        margin-top: 50px;
+      
+ 
+}
+.discussion-heading{
+    margin: 50px;
+}
+
+.voting-heading{
+    margin-left: 100px;
+}
+.card img{
+    width: 500px;
+    height: 500px;
+}
+
+.btn-primary {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+.btn-primary:hover{
+    background-color: rgb(139, 0, 0);
+  }
+  .bg-vote img{
+    width: 100%;
+ 
+  }
+  .voting{
+    margin-top: 200px;
+    left: 35%;
+  }
+  .vote-now{
+    margin-top: 29px;
+    margin-left: 22px;
+  }
+  .Voting-section{
+    display: flex
+    ;
+        justify-content: space-around;
+    }
+    .voting-heading{
+        margin: 50px;
+    }
