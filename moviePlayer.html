@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TIFF LIVE</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    body {
+      background-color: white;
+      font-family: Arial, sans-serif;
+    }
+
+    .navbar {
+      border-bottom: 1px solid #e0e0e0;
+    }
+
+    .navbar-brand {
+      font-weight: bold;
+    }
+
+    .nav-icons {
+      font-size: 1.2rem;
+    }
+
+    .main-title {
+      font-weight: bold;
+      font-size: 2rem;
+      margin-top: 40px;
+      text-align: left;
+    }
+
+    .video-wrapper {
+      background-color: #d3e0e6;
+      padding: 1rem;
+      margin-top: 20px;
+    }
+
+    video {
+      width: 100%;
+      height: auto;
+      border-radius: 4px;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="text-center py-4 border-bottom">
+    <h1 class="fw-bold">TIFF LIVE</h1>
+    <nav class="d-flex justify-content-center gap-5 mt-3">
+      <a href="#" class="text-dark text-decoration-none">Screenings</a>
+      <a href="#" class="text-dark text-decoration-none">Voting</a>
+      <a href="#" class="text-dark text-decoration-none">Community</a>
+    </nav>
+  </header>
+
+  <div class="container my-5">
+    <h2 class="fw-bold mb-4">Now Playing</h2>
+    <div class="bg-secondary-subtle p-3 rounded">
+      <video controls class="w-100 rounded" poster="thumbnail.jpg">
+        <source src="your-movie.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+
+</body>
+</html>
