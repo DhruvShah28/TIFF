@@ -84,6 +84,35 @@ body {
   margin: 0.2rem 0;
 }
 
+.custom-control {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: inline-block; 
+  z-index: 10; 
+  background-color: transparent;
+  border: none; 
+  cursor: pointer;
+  width: unset;
+align-items: unset;
+opacity: 1;
+bottom: auto;
+}
+
+
+.carousel-control-prev {
+  left: 100px;
+}
+
+.carousel-control-next {
+  right: 100px
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  width: 30px;
+  height: 30px;
+}
+
 /* Buttons */
 .btn-primary {
   background-color: #5b47fb;
