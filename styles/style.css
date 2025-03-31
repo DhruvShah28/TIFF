@@ -8,6 +8,7 @@ html,body{
 body {
     font-family: "Libre Franklin", sans-serif;
     box-sizing: border-box;
+    color: #000000;
 }
 
 /* Style Guide */
@@ -115,6 +116,31 @@ h6{
     line-height: 16px;
 }
 
+/* btns style guide */
+button{
+    background-color: #E31D40;
+    color: #ffffff;   
+}
+
+.btn-green{
+    background-color: #4B8510;
+}
+
+.btn-blue{
+    background-color: #337AB3;
+}
+
+.btn-orange{
+    background-color: #DF3603;
+}
+
+.btn-magenta{
+    background-color: #de1285;
+}
+
+.color-grey-1{
+    color: #363636
+}
 
 /* Style Guide End */
 
