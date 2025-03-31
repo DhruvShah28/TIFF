@@ -2,6 +2,7 @@ window.onload = function(){
     // declarations
     const formhandler = document.forms.register_form;
     const login_formhandler = document.forms.login_form;
+    const pay_formhandler = document.forms.payementForm;
 
     const errorSection = document.querySelector("#err_sec");
     const error = document.querySelector("#error_text");
@@ -172,5 +173,7 @@ window.onload = function(){
             }
         }
     }
+
+
 
 }
