@@ -17,6 +17,21 @@
       position: absolute;
       z-index: 2;
     }
+    .movie-card .buy-btn {
+      transition: opacity 0.3s ease;
+      pointer-events: none;
+    }
+
+    .movie-card:hover .buy-btn-container {
+      opacity: 1;
+      pointer-events: auto;
+    }
+
+    .buy-btn-container {
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      pointer-events: none;
+    }
   </style>
 </head>
 
@@ -117,42 +132,39 @@
     <div class="row g-4">
       <div class="col-md-4">
         <div class="movie-card position-relative overflow-hidden">
-          <div class="placeholder bg-secondary-subtle d-flex justify-content-center align-items-center"
-            style="height: 300px;">
-            <div class="text-overlay text-white text-center">
-              <h5 class="fw-bold mb-1">Movie name</h5>
-              <p class="text-light">Description</p>
-            </div>
+          <img src="./images/TEST_ONLY.jpeg" class="w-100" style="height: 300px; object-fit: cover;" alt="Movie poster">
+          <div class="position-absolute bottom-0 w-100 text-white p-3" style="background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);">
+            <h5 class="fw-bold mb-1">Movie name</h5>
+            <p class="text-light small mb-0">Country | Year | Duration | Language</p>
           </div>
-          <a href="payment.html" class="buy-btn btn btn-primary position-absolute start-50 translate-middle-x"
-            style="bottom: 20px; display: none;">Buy Now</a>
+          <div class="buy-btn-container position-absolute top-50 start-50 translate-middle">
+            <a href="payment.html" class="btn btn-success buy-btn">Buy Now</a>
+          </div>
         </div>
       </div>
       <!-- Repeat for more columns -->
       <div class="col-md-4">
         <div class="movie-card position-relative overflow-hidden">
-          <div class="placeholder bg-secondary-subtle d-flex justify-content-center align-items-center"
-            style="height: 300px;">
-            <div class="text-overlay text-white text-center">
-              <h5 class="fw-bold mb-1">Movie name</h5>
-              <p class="text-light">Description</p>
-            </div>
+          <img src="./images/TEST_ONLY.jpeg" class="w-100" style="height: 300px; object-fit: cover;" alt="Movie poster">
+          <div class="position-absolute bottom-0 w-100 text-white p-3" style="background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);">
+            <h5 class="fw-bold mb-1">Movie name</h5>
+            <p class="text-light small mb-0">Country | Year | Duration | Language</p>
           </div>
-          <a href="payment.html" class="buy-btn btn btn-primary position-absolute start-50 translate-middle-x"
-            style="bottom: 20px; display: none;">Buy Now</a>
+          <div class="buy-btn-container position-absolute top-50 start-50 translate-middle">
+            <a href="payment.html" class="btn btn-success buy-btn">Buy Now</a>
+          </div>
         </div>
       </div>
       <div class="col-md-4">
         <div class="movie-card position-relative overflow-hidden">
-          <div class="placeholder bg-secondary-subtle d-flex justify-content-center align-items-center"
-            style="height: 300px;">
-            <div class="text-overlay text-white text-center">
-              <h5 class="fw-bold mb-1">Movie name</h5>
-              <p class="text-light">Description</p>
-            </div>
+          <img src="./images/TEST_ONLY.jpeg" class="w-100" style="height: 300px; object-fit: cover;" alt="Movie poster">
+          <div class="position-absolute bottom-0 w-100 text-white p-3" style="background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);">
+            <h5 class="fw-bold mb-1">Movie name</h5>
+            <p class="text-light small mb-0">Country | Year | Duration | Language</p>
           </div>
-          <a href="payment.html" class="buy-btn btn btn-primary position-absolute start-50 translate-middle-x"
-            style="bottom: 20px; display: none;">Buy Now</a>
+          <div class="buy-btn-container position-absolute top-50 start-50 translate-middle">
+            <a href="payment.html" class="btn btn-success buy-btn">Buy Now</a>
+          </div>
         </div>
       </div>
     </div>
@@ -164,41 +176,38 @@
     <div class="row g-4">
       <div class="col-md-4">
         <div class="movie-card position-relative overflow-hidden">
-          <div class="placeholder bg-secondary-subtle d-flex justify-content-center align-items-center"
-            style="height: 300px;">
-            <div class="text-overlay text-white text-center">
-              <h5 class="fw-bold mb-1">Movie name</h5>
-              <p class="text-light">Description</p>
-            </div>
+          <img src="./images/TEST_ONLY.jpeg" class="w-100" style="height: 300px; object-fit: cover;" alt="Movie poster">
+          <div class="position-absolute bottom-0 w-100 text-white p-3" style="background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);">
+            <h5 class="fw-bold mb-1">Movie name</h5>
+            <p class="text-light small mb-0">Country | Year | Duration | Language</p>
           </div>
-          <a href="payment.html" class="buy-btn btn btn-primary position-absolute start-50 translate-middle-x"
-            style="bottom: 20px; display: none;">Buy Now</a>
+          <div class="buy-btn-container position-absolute top-50 start-50 translate-middle">
+            <a href="payment.html" class="btn btn-success buy-btn">Buy Now</a>
+          </div>
         </div>
       </div>
       <div class="col-md-4">
         <div class="movie-card position-relative overflow-hidden">
-          <div class="placeholder bg-secondary-subtle d-flex justify-content-center align-items-center"
-            style="height: 300px;">
-            <div class="text-overlay text-white text-center">
-              <h5 class="fw-bold mb-1">Movie name</h5>
-              <p class="text-light">Description</p>
-            </div>
+          <img src="./images/TEST_ONLY.jpeg" class="w-100" style="height: 300px; object-fit: cover;" alt="Movie poster">
+          <div class="position-absolute bottom-0 w-100 text-white p-3" style="background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);">
+            <h5 class="fw-bold mb-1">Movie name</h5>
+            <p class="text-light small mb-0">Country | Year | Duration | Language</p>
           </div>
-          <a href="payment.html" class="buy-btn btn btn-primary position-absolute start-50 translate-middle-x"
-            style="bottom: 20px; display: none;">Buy Now</a>
+          <div class="buy-btn-container position-absolute top-50 start-50 translate-middle">
+            <a href="payment.html" class="btn btn-success buy-btn">Buy Now</a>
+          </div>
         </div>
       </div>
       <div class="col-md-4">
         <div class="movie-card position-relative overflow-hidden">
-          <div class="placeholder bg-secondary-subtle d-flex justify-content-center align-items-center"
-            style="height: 300px;">
-            <div class="text-overlay text-white text-center">
-              <h5 class="fw-bold mb-1">Movie name</h5>
-              <p class="text-light">Description</p>
-            </div>
+          <img src="./images/TEST_ONLY.jpeg" class="w-100" style="height: 300px; object-fit: cover;" alt="Movie poster">
+          <div class="position-absolute bottom-0 w-100 text-white p-3" style="background: linear-gradient(to top, rgba(0,0,0,0.7), transparent);">
+            <h5 class="fw-bold mb-1">Movie name</h5>
+            <p class="text-light small mb-0">Country | Year | Duration | Language</p>
           </div>
-          <a href="payment.html" class="buy-btn btn btn-primary position-absolute start-50 translate-middle-x"
-            style="bottom: 20px; display: none;">Buy Now</a>
+          <div class="buy-btn-container position-absolute top-50 start-50 translate-middle">
+            <a href="payment.html" class="btn btn-success buy-btn">Buy Now</a>
+          </div>
         </div>
       </div>
     </div>
