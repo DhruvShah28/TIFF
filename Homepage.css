@@ -158,3 +158,11 @@
     .voting-section{
         color: black;
     }
+     
+    .selected-border {
+        border-color: red !important;
+    }
+    
+    input[type="radio"]{
+        display: none;
+    }
