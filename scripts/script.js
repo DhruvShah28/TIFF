@@ -3,6 +3,7 @@ window.onload = function(){
     const formhandler = document.forms.register_form;
     const login_formhandler = document.forms.login_form;
     const pay_formhandler = document.forms.payementForm;
+    const voting_formhandler = document.forms.vote_form;
 
     const errorSection = document.querySelector("#err_sec");
     const error = document.querySelector("#error_text");
@@ -194,10 +195,44 @@ window.onload = function(){
 
         confemail.innerHTML = user_data.email
         cardname.value = (user_data.fname + " " + user_data.lname);
-
-
-
     }
+
+    if (voting_formhandler) {
+        const movie_list = voting_formhandler.elements.movie;
+    
+        Array.from(movie_list).forEach(movie => {
+            movie.addEventListener('change', () => {
+
+                Array.from(movie_list).forEach(m => {
+                    const m_parentElement = document.getElementById(m.id).closest('.select_toggle');
+                    if (m_parentElement) {
+                        m_parentElement.classList.remove('selected-border'); 
+                    }
+                });
+        
+                
+                if (movie.checked) {
+                    const sel_id = document.getElementById(movie.id);
+                    const parentElement = sel_id.closest('.select_toggle');
+                    if (parentElement) {
+                        parentElement.classList.add('selected-border'); 
+                    }
+                }
+            });
+        });
+        
+    
+        voting_formhandler.onsubmit = function (e) {
+            e.preventDefault();
+            const selected_movie = Array.from(movie_list).find(m => m.checked);
+            if (selected_movie) {
+                alert(`You voted for: ${selected_movie.value}`);
+            } else {
+                alert('Please select a movie to vote!');
+            }
+        };
+    }
+    
 
 
 }
