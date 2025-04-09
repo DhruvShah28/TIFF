@@ -12,54 +12,52 @@
     <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <!-- header not requiered here -->
-    
+
+    <header>
+        <div class="logo"><h2 class="text-center mb-4 main_logo">TIFF<span class="side_logo">LIVE</span></h2></div>
+    </header>
     <!-- Main -->
     <main>
-    <!-- Name Section -->
-        <section>
-            <h2 class="text-center mb-4">TIFF LIVE</h2>
-        </section>
         <!-- registration form section -->
         <section>
             <div class="container d-flex justify-content-center align-items-center">
-                <div class="register-container">
-                    <h3 class="text-center mb-3">Register your account</h3>
+                <div class="register-container p-5 bg-white">
+                    <h5 class="text-center">Register your account</h5>
                     
                     <form action="login.html" name="register_form">
                         <div class="mb-3">
-                            <label for="email" class="form-label">Email *</label>
+                            <label for="email" class="body-2 form-label color-grey-2">Email <span class="red-star">*</span></label>
                             <input type="email" class="form-control" id="email" name="email" placeholder="johndoe@test.ca">
                         </div>
         
                         <div class="mb-3 pass-container">
-                            <label for="pass" class="form-label">Password *</label>
+                            <label for="pass" class="body-2 form-label color-grey-2">Password <span class="red-star">*</span></label>
                             <input type="password" class="form-control pass-input" id="pass" name="pass" >
                         </div>
         
                         <div class="mb-3">
-                            <label for="conf_pass" class="form-label">Confirm Password *</label>
+                            <label for="conf_pass" class="body-2 form-label color-grey-2">Confirm Password <span class="red-star">*</span></label>
                             <input type="password" class="form-control" id="conf_pass" name="conf_pass" >
                         </div>
         
                         <div class="row">
                             <div class="col-md-6 mb-3">
-                                <label for="fname" class="form-label">First Name *</label>
+                                <label for="fname" class="body-2 form-label color-grey-2">First Name <span class="red-star">*</span></label>
                                 <input type="text" class="form-control" id="fname" name="fname" >
                             </div>
                             <div class="col-md-6 mb-3">
-                                <label for="lname" class="form-label">Last Name *</label>
+                                <label for="lname" class="body-2 form-label color-grey-2">Last Name <span class="red-star">*</span></label>
                                 <input type="text" class="form-control" id="lname" name="lname" >
                             </div>
                         </div>
         
                         <div class="row">
                             <div class="col-md-6 mb-3">
-                                <label for="dob" class="form-label">D.O.B</label>
+                                <label for="dob" class="body-2 form-label color-grey-2">D.O.B</label>
                                 <input type="date" class="form-control" id="dob" name="dob" >
                             </div>
                             <div class="col-md-6 mb-3">
-                                <label for="lang" class="form-label">Language</label>
+                                <label for="lang" class="body-2 form-label color-grey-2">Language</label>
                                 <select class="form-select" id="lang" name="lang">
                                     <option selected disabled value="XX">Select option</option>
                                     <option value="eng">English</option>
@@ -70,7 +68,7 @@
         
                         <div class="row">
                             <div class="col-md-6 mb-3">
-                                <label for="country" class="form-label">Country</label>
+                                <label for="country" class="body-2 form-label color-grey-2">Country</label>
                                 <select class="form-select" id="country" name="country">
                                     <option selected disabled value="XX">Select option</option>
                                     <option value="usa">USA</option>
@@ -84,18 +82,18 @@
                                 </select>
                             </div>
                             <div class="col-md-6 mb-3">
-                                <label for="postal" class="form-label">Postal Code</label>
+                                <label for="postal" class="body-2 form-label color-grey-2">Postal Code</label>
                                 <input type="text" class="form-control" id="postal" name="postal" placeholder="A1A 1A1">
                             </div>
                         </div>
         
                         <div class="mb-3 form-check">
                             <input type="checkbox" class="form-check-input" id="terms" name="terms">
-                            <label class="form-check-label" for="terms">By signing up you agree to <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy</a></label>
+                            <label class="form-check-label body-2 color-grey-2" for="terms">By signing up you agree to <a href="#">Terms & Conditions</a> and <a href="#">Privacy Policy</a></label>
                         </div>
         
                         <div class="d-flex justify-content-center">
-                            <button type="submit" class="btn btn-primary">Register</button>
+                            <button type="submit" class="btn reg_btn btn-red">Register</button>
                         </div>
 
                         <div id="err_sec" class="row">
@@ -105,7 +103,7 @@
                             </div>
                         </div>
         
-                        <p class="text-center mb-0 mt-3">Already a member? <a href="">Sign In</a></p>
+                        <p class="text-center color-grey-2 body-4 mt-3">Already a member? <a href="">Sign In</a></p>
                     </form>
                 </div>
             </div>

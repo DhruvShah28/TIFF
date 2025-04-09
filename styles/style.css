@@ -11,6 +11,7 @@ body {
     color: #000000;
 }
 
+
 /* Style Guide */
 
 
@@ -117,40 +118,56 @@ h6{
 }
 
 /* btns style guide */
-button{
-    background-color: #E31D40;
-    color: #ffffff;   
+.btn-red{
+    background-color: #E31D40 ;
+    color: #ffffff ;   
 }
 
 .btn-green{
     background-color: #4B8510;
+    color: #ffffff ;   
+
 }
 
 .btn-blue{
     background-color: #337AB3;
+    color: #ffffff ;   
 }
 
 .btn-orange{
     background-color: #DF3603;
+    color: #ffffff ;   
 }
 
 .btn-magenta{
     background-color: #de1285;
+    color: #ffffff ;   
 }
 
 .color-grey-1{
     color: #363636
 }
 
+.color-grey-2{
+    color: #747474;
+}
+
+a{
+    color: #000000;
+    text-decoration: none;
+    transition: color 250ms ease-in-out;
+}
+
+a:hover{
+    color: #747474;
+    transition: color 250ms ease-in-out;
+}
+
 /* Style Guide End */
 
 .register-container {
-    width: 50%;
-    background: #fff;
-    padding: 40px 30px;
     border-radius: 10px;
-    border: 2px solid #DAE3EA;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #E0E0E0;
 }
 
 /* .pass-container {
@@ -160,6 +177,24 @@ button{
 .pass-input {
     padding-right: 40px;
 } */
+
+/* header */
+
+.main_logo{
+    font-size: 50px;
+}
+
+.side_logo{
+    font-size: 32px;
+    font-weight: 400;
+}
+
+/* form section */
+
+.login-container{
+    border-radius: 10px;
+    border: 2px solid #E0E0E0;
+}
 
 .toggle-pass {
     position: absolute;
@@ -172,6 +207,7 @@ button{
     background: none;
 }
 
+
 .form-check-label {
     font-size: 0.9rem;
 }
@@ -183,4 +219,33 @@ button{
 
 #error_text{
     text-wrap: wrap;
+}
+
+input{
+    border-radius: 4px;
+    border: 2px solid #E0E0E0;
+}
+
+.sub_btn{
+    padding: 16px 15px;
+    width: 100%;
+}
+
+.sub_btn:hover{
+    background-color: #E31D40 ;
+    color: #ffffff ;   
+}
+
+.reg_btn{
+    padding: 16px 15px;
+    width: 60%;
+}
+
+.reg_btn:hover{
+    background-color: #E31D40 ;
+    color: #ffffff ;   
+}
+
+.red-star{
+    color: #E31D40;
 }
