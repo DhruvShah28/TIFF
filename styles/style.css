@@ -231,19 +231,14 @@ input{
     width: 100%;
 }
 
-.sub_btn:hover{
-    background-color: #E31D40 ;
+.sub_btn:hover, .reg_btn:hover{
+    background-color: #000000 ;
     color: #ffffff ;   
 }
 
 .reg_btn{
     padding: 16px 15px;
     width: 60%;
-}
-
-.reg_btn:hover{
-    background-color: #E31D40 ;
-    color: #ffffff ;   
 }
 
 .red-star{
