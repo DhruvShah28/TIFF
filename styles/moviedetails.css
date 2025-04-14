@@ -1,0 +1,90 @@
+body {
+    font-family: 'Libre Franklin', sans-serif;
+    background-color: #fff;
+    color: #000;
+  }
+  
+  header {
+    background-color: black;
+    color: white;
+    padding: 40px 0 24px;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 32px;
+    font-weight: 600;
+  }
+  
+  header nav a {
+    color: white;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 0 16px;
+  }
+  
+  header nav a:hover {
+    text-decoration: underline;
+  }
+  
+  img.img-fluid {
+    width: 100%;
+    height: auto;
+  }
+  
+  .tab-btn {
+    background-color: white;
+    border: none;
+    padding: 16px 24px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: background-color 0.2s, color 0.2s;
+  }
+  
+  .tab-btn.active,
+  .tab-btn:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .showtime-box {
+    background-color: #f4f4f4;
+    padding: 24px;
+    margin-bottom: 24px;
+    border-radius: 4px;
+  }
+  
+  .time-slot,
+  .buy-btn {
+    border: none;
+    padding: 8px 16px;
+    font-weight: 600;
+    margin: 4px 8px 4px 0;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .time-slot {
+    background-color: black;
+    color: white;
+  }
+  
+  .buy-btn {
+    background-color: #e31d40;
+    color: white;
+  }
+  
+  main img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 16px;
+    margin-bottom: 16px;
+  }
+  
+  hr {
+    border-top: 2px solid black;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  

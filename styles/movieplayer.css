@@ -1,0 +1,62 @@
+body {
+    margin: 0;
+    font-family: 'Libre Franklin', sans-serif;
+    background-color: white;
+  }
+  
+  /* Header */
+  header {
+    background-color: black;
+    padding: 40px 0 24px 0;
+  }
+  
+  .header-logo {
+    width: 78px;
+    height: 50px;
+  }
+  
+  .header-title {
+    color: white;
+    font-size: 32px;
+    font-weight: 400;
+    margin-left: 8px;
+  }
+  
+  .header-icons div {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .header-icons .icon-border {
+    border: 1px solid white;
+  }
+  
+  .nav-links a {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  .movie-title {
+    font-size: 56px;
+    font-weight: 600;
+  }
+  
+  .movie-time {
+    font-size: 16px;
+    font-weight: 600;
+    color: #747474;
+  }
+  
+  /* Video */
+  .video-wrapper {
+    max-width: 1360px;
+    margin: auto;
+  }
+  
+  video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }

@@ -121,3 +121,21 @@ body {
       padding: 0 1rem;
     }
   }
+
+  body {
+    font-family: 'Libre Franklin', sans-serif;
+  }
+  
+  label {
+    font-weight: 600;
+  }
+  
+  .btn-danger {
+    background-color: #E31D40;
+    border-color: #E31D40;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c81a38;
+    border-color: #c81a38;
+  }
