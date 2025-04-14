@@ -1,156 +1,142 @@
-/* Reset & Base */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
+/* General Typography & Layout */
 body {
-  font-family: 'Segoe UI', sans-serif;
-  background-color: #fff;
-  color: #333;
+    font-family: 'Libre Franklin', sans-serif;
+    background-color: #fff;
+    color: #000;
 }
-
-/* Navbar */
-.navbar {
-  background-color: #fff;
-  padding: 16px 24px;
+  
+h1, h2, h5 {
+    font-family: 'Libre Franklin', sans-serif;
+    font-weight: 600;
 }
-
-.navbar-brand {
-  font-size: 1.8rem;
-  font-weight: 700;
+  
+p, span {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
 }
-
-.navbar-nav .nav-link {
-  color: #555;
-  font-weight: 500;
+  
+/* Header */
+header h1 {
+    font-size: 32px;
 }
-
-.navbar-nav .nav-link:hover {
-  color: #000;
+  
+.nav-link {
+    font-size: 16px;
+    line-height: 24px;
 }
-
-.navbar .bi {
-  font-size: 1.2rem;
-  color: #333;
+  
+/* Genre Filters */
+.genre-filters span {
+    font-weight: 700;
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
 }
-
-/* Genre Filter */
-.genre-filter {
-  background-color: #d2d6dd;
-  padding: 10px 24px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  
+.genre-filters-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
 }
-
-.genre-filter span {
-  margin-right: 16px;
-  font-weight: 500;
-  color: #4a4a4a;
-  cursor: pointer;
+  
+.genre-filters {
+    display: flex;
+    gap: 32px;
+    flex-wrap: wrap;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
 }
-
-.genre-filter span:hover {
-  text-decoration: underline;
+  
+/* slider icon stays top-right corner */
+.genre-filter-icon {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }
-
-.genre-filter i {
-  font-size: 1.3rem;
+/* Hero Carousel */
+.carousel-caption {
+    position: absolute;
+    bottom: 3rem;
+    left: 3rem;
+    max-width: 500px;
+    text-align: left;
 }
-
-/* Carousel */
-.carousel-item {
-  position: relative;
+  
+.carousel-caption h1 {
+    font-size: 56px;
 }
-
-.carousel-caption-overlay {
-  position: absolute;
-  bottom: 3rem;
-  left: 3rem;
-  color: white;
-  max-width: 500px;
+  
+.carousel-caption p {
+    font-size: 18px;
+    font-weight: 600;
 }
-
-.carousel-caption-overlay h1 {
-  font-size: 2.2rem;
-  font-weight: 700;
-  margin: 0.2rem 0;
+  
+.btn-green {
+    background-color: #4B8510;
+    color: white;
+    border: none;
 }
-
-.carousel-caption-overlay p,
-.carousel-caption-overlay button {
-  margin: 0.2rem 0;
+  
+.btn-red {
+    background-color: #E31D40;
+    color: white;
+    border: none;
 }
-
-.custom-control {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  display: inline-block; 
-  z-index: 10; 
-  background-color: transparent;
-  border: none; 
-  cursor: pointer;
-  width: unset;
-align-items: unset;
-opacity: 1;
-bottom: auto;
+  
+.btn-green:hover, .btn-red:hover {
+    opacity: 0.85;
 }
-
-
-.carousel-control-prev {
-  left: 100px;
-}
-
-.carousel-control-next {
-  right: 100px
-}
-
-.carousel-control-prev-icon, .carousel-control-next-icon {
-  width: 30px;
-  height: 30px;
-}
-
-/* Buttons */
-.btn-primary {
-  background-color: #5b47fb;
-  border: none;
-  transition: background-color 0.3s ease;
-}
-
-.btn-primary:hover {
-  background-color: #4732d9;
-}
-
-/* Movie Card Hover Effect */
+  
+/* Movie Cards */
 .movie-card {
-  cursor: pointer;
-  position: relative;
-  overflow: hidden;
+    background-color: #DAE3EA;
+    padding: 32px 24px;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    transition: all 0.3s ease;
+    border-radius: 10px;
+}
+  
+.movie-card h5 {
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 8px;
+}
+  
+.movie-card p {
+    font-size: 16px;
+    color: #fff;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+  
+/* Action Button (hidden by default) */
+.movie-card .action-btn {
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease;
+    margin-top: 24px;
+    padding: 16px 30px;
+    font-size: 18px;
+    font-weight: 600;
+}
+  
+/* Reveal button on hover */
+.movie-card:hover .action-btn {
+    opacity: 1;
+    pointer-events: auto;
 }
 
-.movie-card .placeholder {
-  transition: transform 0.3s ease;
-}
-
-.movie-card:hover .placeholder {
-  transform: scale(1.05);
-}
-
-.movie-card .buy-btn {
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  pointer-events: none;
-}
-
-.movie-card:hover .buy-btn {
-  opacity: 1;
-  pointer-events: auto;
-}
-
-/* Utility */
-.text-secondary {
-  color: #cfd4dc !important;
+@media (max-width: 768px) {
+    .movie-card {
+        height: auto;
+    }
 }
