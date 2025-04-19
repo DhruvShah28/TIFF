@@ -1,106 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Voting</title>
-    <script src="scripts/script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- CSS Files -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
-    <!-- <link rel="stylesheet" href="styles/style.css"> -->
-    <link rel="stylesheet" href="Homepage.css">
+  <meta charset="UTF-8">
+  <title>TIFF Voting Page</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .navbar {
+      background-color: #000;
+    }
+    .navbar-brand,
+    .nav-link,
+    .navbar-text {
+      color: #fff !important;
+    }
+    .movie-image {
+      width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+    .movie-card {
+      display: flex;
+      gap: 30px;
+      align-items: start;
+      margin-bottom: 20px;
+    }
+    .movie-meta {
+      font-size: 0.9rem;
+      color: #555;
+    }
+    .vote-btn {
+      background-color: #e6007e;
+      color: #fff;
+      border: none;
+      padding: 12px 30px;
+      font-weight: bold;
+      margin: 30px auto;
+      display: block;
+    }
+    .vote-btn:hover {
+      background-color: #c2006c;
+    }
+    .upcoming-grid img {
+      width: 100%;
+      border-radius: 8px;
+    }
+    .section-title {
+      font-weight: bold;
+      margin-top: 50px;
+    }
+  </style>
 </head>
 <body>
-    <div class="Title">
-        <h1>TIFF LIVE</h1>
 
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container d-flex flex-column">
+      <a class="navbar-brand fw-bold fs-1"    href="#">tiff<span class="text-white fs-4">Live</span></a>
+        
+        <ul class="navbar-nav m-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Screenings</a></li>
+          <li class="nav-item"><a class="nav-link" href="./voting.html">Voting</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Community</a></li>
+        </ul>
+      
     </div>
-           <div>
-            <nav class="navbar">
-             <li>Screenings</li>
-             <li>Voting</li>
-             <li>Community</li> 
-             
-            </nav>
-            <div class="bg-vote  position-relative">
-                <img src="./images/61f50d942b871bf23bc3fd4c89ac72a7.jpg" class="img-fluid" alt="...">
-            </div>
-                <div class="position-absolute top-50 translate-middle text-white  p-2 voting ">
-                    <h1 class="text-black">Ongoing voting</h1>
-                    <p class="text-black">About voting</p>
-                    <form>
-                      <div class="row row-cols-2 row-cols-lg-2 g-2 g-lg-2">
-                        <div class="col">
-                          <div class="p-4 border rounded text-black">
-                            <input type="radio" name="movie" id="movie1" value="Movie 1">
-                            <label for="movie1">Movie Name</label>
-                          </div>
-                        </div>
-                        <div class="col">
-                          <div class="p-4 border rounded text-black">
-                            <input type="radio" name="movie" id="movie2" value="Movie 2">
-                            <label for="movie2">Movie Name</label>
-                          </div>
-                        </div>
-                        <div class="col">
-                          <div class="p-4 border rounded text-black">
-                            <input type="radio" name="movie" id="movie3" value="Movie 3">
-                            <label for="movie3">Movie Name</label>
-                          </div>
-                        </div>
-                        <div class="col">
-                          <div class="p-4 border rounded text-black">
-                            <input type="radio" name="movie" id="movie4" value="Movie 4">
-                            <label for="movie4">Movie Name</label>
-                          </div>
-                        </div>
-                        <div class="col">
-                          <div class="p-4 border rounded text-black">
-                            <input type="radio" name="movie" id="movie5" value="Movie 5">
-                            <label for="movie5">Movie Name</label>
-                          </div>
-                        </div>
-                        <div class="col">
-                          <div class="p-4 border rounded text-black">
-                            <input type="radio" name="movie" id="movie6" value="Movie 6">
-                            <label for="movie6">Movie Name</label>
-                          </div>
-                        </div>
-                      </div>
-                      
-                      <!-- Submit Button -->
-                      <div class="mt-5">
-                        <button type="submit" class="btn btn-primary">Vote now</button>
-                      </div>
-                    </form>
-                    
-                       
-                     
-                       
-                     
-                     </div>
-                   <div class="voting-heading">
-                  <h1>Voting Genre</h1>
-                   </div>
-                   <div class="Voting-section">
+  </nav>
 
-                    <div class="card">
-              
-                      <img src="./images/342567f0c9f90c379a4d74a262d2f4e1.jpg" class="" alt="...">
-                      <div class="card-img-overlay text-center">
-                          <h5 class="card-title">Text on Image</h5>
-                          <p class="card-text">This is some text written on top of the image.</p>
-                      </div>
-                  </div>
-                  <div class="card">
-                      <img src="./images/342567f0c9f90c379a4d74a262d2f4e1.jpg" class="" alt="...">
-                      <div class="card-img-overlay text-center">
-                          <h5 class="card-title">Text on Image</h5>
-                          <p class="card-text">This is some text written on top of the image.</p>
-                      </div>
-                  </div>
-                  
-                  </div>
+
+  <div class="container py-5">
+    <h2 class="mb-3">Ongoing Voting</h2>
+    <p class="mb-4">Cast your vote at TIFF and help crown this year’s People's Choice winner!</p>
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="movie-card">
+          <img src="./images/Superman.png" class="movie-image" alt="Superman">
+          <div>
+            <h5>Superman</h5>
+            <p class="movie-meta">United States of America | 2024 | 96m | English</p>
+          </div>
+        </div>
+        <div class="movie-card">
+          <img src="./images/Image (1).png" class="movie-image" alt="Ugly Stepsister">
+          <div>
+            <h5>Ugly Stepsister</h5>
+            <p class="movie-meta">United States of America | 2024 | 96m | English</p>
+          </div>
+        </div>
+        <div class="movie-card">
+          <img src="./images/Where_the_wind_goes.png" class="movie-image" alt="Where the wind Goes">
+          <div>
+            <h5>Where the wind Goes</h5>
+            <p class="movie-meta">United States of America | 2024 | 96m | English</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <div class="movie-card">
+          <img src="./images/I_like_movies.png" class="movie-image" alt="I Like Movies">
+          <div>
+            <h5>I Like Movies</h5>
+            <p class="movie-meta">United States of America | 2024 | 96m | English</p>
+          </div>
+        </div>
+        <div class="movie-card">
+          <img src="./images/Scaramento.png" class="movie-image" alt="Sacramento">
+          <div>
+            <h5>Sacramento</h5>
+            <p class="movie-meta">United States of America | 2024 | 96m | English</p>
+          </div>
+        </div>
+        <div class="movie-card">
+          <img src="./images/itch.png" class="movie-image" alt="Itch">
+          <div>
+            <h5>Itch</h5>
+            <p class="movie-meta">United States of America | 2024 | 96m | English</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button class="vote-btn  mt-5 " style="margin-right: 659px;">Vote Now</button>
+
+    <!-- Upcoming Movies -->
+    <h3 class="section-title" style="font-size: 56px;"  >Vote for upcoming movies</h3>
+
+    <div class="row upcoming-grid" style="margin-top: 40px;">
+      <div class="col-md-6 mb-4">
+        <h5 class="mb-2">Comedy</h5>
+        <img src="./images/Hey_Viktor.png" alt="Hey, Viktor!" class="img-fluid">
+      </div>
+      <div class="col-md-6 mb-4">
+        <h5 class="mb-2">Mystery + Thriller</h5>
+        <img src="./images/EZRA.png" alt="Ezra" class="img-fluid">
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

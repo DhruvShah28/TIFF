@@ -1,16 +1,11 @@
+
+
 .Title{
     display: flex ;  
         align-content: stretch;
         justify-content: space-around;
     }
-    .navbar{
-        display: flex
-        ;
-            justify-content: center;
-            list-style: none;
-            justify-content: space-evenly;
-            margin-top: 20px;
-        }
+    
     .bg-image{
   
         background-size: cover;
@@ -62,7 +57,8 @@
 .card {
     position: relative;
     
-    
+    width: 594px;
+
     overflow: hidden;  /* Hide any text outside of the card */
 }
 
@@ -93,9 +89,10 @@
 .movie-description{
     color: white;
     position: relative;
-    left: 20px;
-    bottom: 200px;
+    left: 80px;
+    bottom: 300px;
 }
+
 .Voting-section{
     display: flex ;
         align-content: flex-start;
@@ -105,16 +102,29 @@
       
  
 }
+.navbar {
+    background-color: #000;
+  }
+  .navbar-brand,
+  .nav-link,
+  .navbar-text {
+    color: #fff !important;
+  }
+
 .discussion-heading{
-    margin: 50px;
+
+    margin-left: 10px;
 }
 
 .voting-heading{
-    margin-left: 100px;
+    margin-bottom: 33px;
+    margin-left: 51px;
 }
+
 .card img{
-    width: 500px;
-    height: 500px;
+    width: 600px;
+    height: 600px;
+
 }
 
 .btn-primary {
@@ -130,7 +140,7 @@
   }
   .bg-vote img{
     width: 100%;
-    opacity: 0.5;
+    opacity: -0.5;;
 }
   
   .voting{
@@ -144,10 +154,10 @@
   .Voting-section{
     display: flex
     ;
-        justify-content: space-around;
+    justify-content: space-evenly;
     }
     .voting-heading{
-        margin: 50px;
+   margin: 10px;
     }
     .discussion{
         width: 300px;
@@ -166,3 +176,92 @@
     input[type="radio"]{
         display: none;
     }
+    .buy-btn-container{
+        position: absolute;
+      
+        top: 247px;
+    }
+    .top-section{
+        background-color: black;
+    }
+    .top-section li{
+        color: white;
+    }
+    .top-section img{
+        width: 100px;
+    }
+.icon-section{
+    display: flex;
+    padding: 14px;
+        justify-content: center;
+        position: relative;
+    }
+    .top-section h1{
+        color: white;
+      
+        position: absolute;
+        top: 36px;
+        right:  639px;;
+    
+    }
+ .vote-now{
+       
+        right: 90px;
+    top: 263px;
+}
+    
+
+    ul{
+        list-style: none;
+    }
+    .navbar {
+        background-color: #000;
+      }
+      .navbar-brand,
+      .nav-link,
+      .navbar-text {
+        color: #fff !important;
+      }
+      .movie-image {
+        width: 100%;
+        height: auto;
+        border-radius: 5px;
+      }
+      .movie-card {
+        display: flex;
+        gap: 30px;
+        align-items: start;
+        margin-bottom: 20px;
+      }
+      .movie-meta {
+        font-size: 0.9rem;
+        color: #555;
+      }
+      .vote-btn {
+        background-color: #e6007e;
+        color: #fff;
+        border: none;
+        padding: 12px 30px;
+        font-weight: bold;
+        margin: 30px auto;
+        display: block;
+      }
+      .vote-btn:hover {
+        background-color: #c2006c;
+      }
+      .upcoming-grid img {
+        width: 100%;
+        border-radius: 8px;
+      }
+      .section-title {
+        font-weight: bold;
+        margin-top: 50px;
+      }
+     .discussion-cards{
+        display: flex
+        ;
+            justify-content: space-between;
+     }
+     .upcoming-grid img{
+        margin-top: 30px;
+     } 

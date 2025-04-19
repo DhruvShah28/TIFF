@@ -13,19 +13,22 @@
 
 </head>
 <body>
-    <div class="Title">
-        <h1>TIFF LIVE</h1>
-
-    </div>
-
+ 
 <div>
+<!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container d-flex flex-column">
+      <a class="navbar-brand fw-bold fs-1"    href="#">tiff<span class="text-white fs-4">Live</span></a>
+        
+        <ul class="navbar-nav m-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Screenings</a></li>
+          <li class="nav-item"><a class="nav-link" href="./voting.html">Voting</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Community</a></li>
+        </ul>
+      
+    </div>
+  </nav>
 
-    <nav class="navbar">
-     <li>Screenings</li>
-     <li>Voting</li>
-     <li>Community</li> 
-     
-    </nav>
     <div class="bg-image">
   
           <div id="imageCarousel" class="carousel slide">
@@ -39,23 +42,17 @@
               <!-- Carousel Images -->
               <div class="carousel-inner">
                   <div class="carousel-item active">
-                      <img src="./images/61f50d942b871bf23bc3fd4c89ac72a7.jpg" class="d-block w-100" alt="Slide 1">
+                      <img src="./images/02c1876989d4300b6e1774fff24862b1.jpg" class="d-block w-200" alt="Slide 1">
                   </div>
                   <div class="carousel-item">
-                      <img src="./images/342567f0c9f90c379a4d74a262d2f4e1.jpg" class="d-block w-100" alt="Slide 2">
+                      <img src="./images/342567f0c9f90c379a4d74a262d2f4e1.jpg" class="d-block w-200" alt="Slide 2">
                   </div>
                   <div class="carousel-item">
                       <img src="./images/af5c2419414b53823f381c446c6c955d.jpg" class="d-block w-100" alt="Slide 3">
                   </div>
               </div>
       
-              <!-- Left & Right Controls -->
-              <button class="carousel-control-prev" type="button" data-bs-target="#imageCarousel" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon"></span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#imageCarousel" data-bs-slide="next">
-                  <span class="carousel-control-next-icon"></span>
-              </button>
+              
           </div>
       </div>
     </div>
@@ -72,73 +69,82 @@
     <p>eque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
      "There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain..."</p>
     <p>Thu, Feb 27, 1:00pm</p>
-    <button type="button" class="btn btn-primary">Buy now</button>
+    <div class="buy-btn-container">
+        <a href="payment.html" class="btn btn-success buy-btn">Buy Now</a>
+      </div>
     </div>
     
-    <h1 class="voting-heading">Vote for upcoming Movies</h1>
+  <h1 class="voting-heading">Vote for upcoming Movies</h1>
 
     <div class="Voting-section">
+     
+      <div class="card  col-md-6 mb-4">
 
-      <div class="card">
-        <h1>Comedy</h1>
-          <img src="./images/342567f0c9f90c379a4d74a262d2f4e1.jpg" class="" alt="...">
+          <img src="./images/Hey_Viktor.png" class="" alt="...">
+
           <div class="card-img-overlay text-center">
-              <h5 class="card-title">Text on Image</h5>
-              <p class="card-text">This is some text written on top of the image.</p>
+       
+              <h5 class="card-title">Nominies</h5>
+              <p class="card-text">
+                <ul>
+                    <li>War</li>
+                    <li>Toy story</li>
+                    <li>Avtar and Fire and Ash</li>
+                    <li>Toy Story 2</li>
+                    <li>Toy Story 5</li>
+                    <div class="buy-btn-container vote-now">
+                        <a href="./voting.html" class="btn btn-success buy-btn">Vote now</a>
+                      </div>
+                </ul>
+              </p>
           </div>
-      </div>
+      </div> 
+     
+   
 
+<div class="card  col-md-6 mb-4">
 
-    <div class="card">
-        <h1>thriller</h1>
-        <img src="./images/af5c2419414b53823f381c446c6c955d.jpg" class="card" alt="...">
+        <img src="./images/d770cb072df8b64412376b26cac9cabf.png     " class="card" alt="...">
         <div class="card-img-overlay text-center">
-            <h5 class="card-title">Text on Image</h5>
-            <p class="card-text">This is some text written on top of the image.</p>
+            <h5 class="card-title">Nominies</h5>
+            <p class="card-text"><ul>
+                <li>War</li>
+                <li>Toy story</li>
+                <li>Avtar and Fire and Ash</li>
+                <li>Toy Story 2</li>
+                <li>Toy Story 5</li>
+                <div class="buy-btn-container vote-now">
+                    <a href="./voting.html" class="btn btn-success buy-btn">Vote now</a>
+                  </div>
+            </ul></p>
+            
         </div>
-    </div>
+    </div> 
 
     
     </div>
    </div>
         </div>
-        <h1 class="discussion-heading">Top discussion</h1>
-        <div class="Top-discussion">
-            <div class="card  discussion">
-              
-                  <img src="./images/342567f0c9f90c379a4d74a262d2f4e1.jpg" class="" alt="...">
-                  <div class="card-img-overlay text-center ">
-                      <h5 class="card-title">Text on Image</h5>
-                      <p class="card-text">This is some text written on top of the image.</p>
-                  </div>
-              </div>
-              <div class="card discussion">
-                  <img src="./images/342567f0c9f90c379a4d74a262d2f4e1.jpg" class="" alt="...">
-                  <div class="card-img-overlay text-center">
-                      <h5 class="card-title">Text on Image</h5>
-                      <p class="card-text">This is some text written on top of the image.</p>
-                  </div>
-              </div>
-              <div class="card discussion">
-               
-                  <img src="./images/342567f0c9f90c379a4d74a262d2f4e1.jpg" class="" alt="...">
-                  <div class="card-img-overlay text-center">
-                      <h5 class="card-title">Text on Image</h5>
-                      <p class="card-text">This is some text written on top of the image.</p>
-                  </div>
-              </div>
-              <div class="card discussion">
-               
-                <img src="./images/342567f0c9f90c379a4d74a262d2f4e1.jpg" class="" alt="...">
-                <div class="card-img-overlay text-center">
-                    <h5 class="card-title">Text on Image</h5>
-                    <p class="card-text">This is some text written on top of the image.</p>
-                </div>
-            </div>
-        
-                </div>
-              </div>
 
+        <h1 class="discussion-heading">Top discussion</h1>
+        <div class="discussion-cards">
+            <div>
+                <img src="./images/discussionimage.png" alt="imageCarousel" style="width: 437px; height: 284px;">
+                <p>the lonely</p>
+              </div> 
+              <div>
+                <img src="./images/discussionimage.png" alt="imageCarousel "style="width: 437px; height: 284px; ">
+              </div> 
+              <div>
+                <img src="./images/discussionimage.png" alt="imageCarousel" style="width: 437px; height: 284px;">
+              </div> 
+
+
+
+        </div>
+         
+              
+ 
         </div>
     </div>
 </div>
