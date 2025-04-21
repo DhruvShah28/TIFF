@@ -77,25 +77,25 @@ header h1 {
   
 .btn-green {
     background-color: #4B8510;
-    color: white;
+    color: #fff;
     border: none;
 }
   
 .btn-red {
     background-color: #E31D40;
-    color: white;
+    color: #fff;
     border: none;
 }
   
 .btn-green:hover, .btn-red:hover {
-    opacity: 0.85;
+    background-color: #000;
+    color: #fff;
 }
   
 /* Movie Cards */
 .movie-card {
     background-color: #DAE3EA;
     padding: 32px 24px;
-    height: 580px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -103,6 +103,7 @@ header h1 {
     position: relative;
     transition: all 0.3s ease;
     border-radius: 10px;
+    min-height: 100% ;
 }
   
 .movie-card h5 {
@@ -134,6 +135,41 @@ header h1 {
     opacity: 1;
     pointer-events: auto;
 }
+/* new */
+
+.custom-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: inline-block; 
+    z-index: 10; 
+    background-color: transparent;
+    border: none; 
+    cursor: pointer;
+    width: unset;
+  align-items: unset;
+  opacity: 1;
+  bottom: auto;
+}
+
+
+.carousel-control-prev {
+    left: 100px;
+}
+
+.carousel-control-next {
+    right: 100px
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    width: 30px;
+    height: 30px;
+}
+
+.movie-info{
+    width: 100%;
+}
+
 
 @media (max-width: 768px) {
     .movie-card {

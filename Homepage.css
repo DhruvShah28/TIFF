@@ -88,9 +88,7 @@
 
 .movie-description{
     color: white;
-    position: relative;
-    left: 80px;
-    bottom: 300px;
+    transform: translateY(-350px);
 }
 
 .Voting-section{
@@ -152,8 +150,7 @@
     margin-left: 22px;
   }
   .Voting-section{
-    display: flex
-    ;
+    display: flex;
     justify-content: space-evenly;
     }
     .voting-heading{
@@ -176,11 +173,7 @@
     input[type="radio"]{
         display: none;
     }
-    .buy-btn-container{
-        position: absolute;
-      
-        top: 247px;
-    }
+
     .top-section{
         background-color: black;
     }

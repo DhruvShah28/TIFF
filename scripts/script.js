@@ -178,7 +178,7 @@ window.onload = function(){
     if(pay_formhandler){
         let cardname = pay_formhandler.cardName;
         let user_data = JSON.parse(localStorage.getItem("user"));
-        const confemail = document.getElementById("conf_email");
+        let confemail = document.getElementById("conf_email");
         let screenprice = document.getElementById("screen_price");
         let taxprice = document.getElementById("tax_price");
         let total_price = document.getElementById("total_price");
@@ -193,7 +193,7 @@ window.onload = function(){
         taxprice.innerHTML = taxAmount.toFixed(2);
         total_price.innerHTML = total.toFixed(2);
 
-        confemail.innerHTML = user_data.email
+        confemail.innerHTML = user_data.email;
         cardname.value = (user_data.fname + " " + user_data.lname);
     }
 
