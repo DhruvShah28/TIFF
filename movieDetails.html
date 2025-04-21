@@ -119,8 +119,8 @@
           <p class="fw-semibold mb-1">Tiff Live</p>
           <p class="mb-2">Closed Captions (CC), Audio Description (AD)</p>
           <div>
-            <button class="time-slot">6:45 PM</button>
-            <a href="payment.html" class="buy-btn">Buy</a>
+            <button class="time-slot" id="time-slot-sel">6:45 PM</button>
+            <a href="payment.html" id="sel_buy" style="display: none;" class="buy-btn">Buy</a>
           </div>
         </div>
 
@@ -136,6 +136,12 @@
       </div>
     </div>
   </main>
-
+  <script>
+    const time = document.getElementById("time-slot-sel");
+    const buy_btn = document.getElementById("sel_buy");
+    time.onclick = function(){
+      buy_btn.style.display = "inline-block";
+    }
+  </script>
 </body>
 </html>
