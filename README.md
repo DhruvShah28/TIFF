@@ -31,24 +31,24 @@ Create new opportunities for community connection and participation.
 Generate alternative revenue streams via digital memberships and online screenings.
 
 ## ⚙️ Key Features
-1. 🎥 Online Screenings
+1. 🎥 **Online Screenings**
 
 A secure digital platform allowing patrons to purchase and view TIFF films online in a controlled environment — similar to a virtual cinema experience.
 
-2. 🗳️ User Voting Platform
+2. 🗳️ **User Voting Platform**
 
 Interactive voting that lets audiences vote for films they’d like to see featured in future screenings — encouraging participation and a sense of ownership.
 
-3. 💬 Community Discussion Hub
+3. 💬 **Community Discussion Hub**
 
 A discussion platform (inspired by Reddit) where users can start or join conversations about films, directors, actors, and cinematic trends.
 
 ## 📊 Research & Insights
-🔍 Understanding TIFF
+🔍 **Understanding TIFF**
 
 TIFF is one of the world’s largest public film festivals, with significant cultural and economic impact. However, its digital engagement outside festival season was limited, presenting a major gap.
 
-⚔️ Competitor Analysis
+⚔️ **Competitor Analysis**
 
 We compared TIFF with other major film festivals — Cannes, Sundance, Venice, and Berlinale — identifying opportunities for TIFF to lead in digital accessibility and audience inclusivity.
 
@@ -61,7 +61,7 @@ We compared TIFF with other major film festivals — Cannes, Sundance, Venice, a
 | **Berlinale** | Hybrid | Public | Social-political focus |
 
 
-👥 Audience Insights
+👥 **Audience Insights**
 
 Patrons want convenience, connection, and influence.
 
@@ -69,7 +69,7 @@ Many are motivated by participation — being part of the film selection process
 
 Accessibility is a recurring theme: patrons want TIFF experiences available anywhere, anytime.
 
-🧠 Design Principles
+🧠 **Design Principles**
 
 User-Centric: Seamless navigation and accessibility-first layouts.
 
@@ -79,17 +79,17 @@ On-Brand: Maintained TIFF’s recognizable aesthetic while modernizing the inter
 
 Scalable: Designed for future features like virtual events and live Q&As.
 
-🧑‍💻 Team Roles
+🧑‍💻 **Team Roles**
 
-UX Designers (2): Conducted research, wireframes, and prototypes.
+UX Designers (2): Conducted research, wireframes, and prototypes.  
 Dev, Kashish 
 
-Developers (3): Implemented the digital platform features and tested deployment.
+Developers (3): Implemented the digital platform features and tested deployment.  
 Dhruv, Jishan, Abhiraj
 
 Collaborative Process: Combined UX, research, and development insights to deliver a holistic experience.
 
-🏆 Outcome
+🏆 **Outcome**
 
 Our redesigned digital experience proposed a year-round engagement platform that:
 
@@ -99,7 +99,7 @@ Created 3 new digital revenue models through memberships, streaming, and online 
 
 Positioned TIFF as an innovative, accessible, and community-driven brand in the film industry.
 
-🧩 Tech Stack
+🧩 **Tech Stack**
 
 Frontend: Figma (Prototyping), HTML, CSS, JS
 
@@ -107,11 +107,11 @@ Backend Concept: Node.js (for potential platform deployment)
 
 Collaboration: Miro, Google Workspace
 
-📸 Screens & Mockups
+📸 **Screens & Mockups**
 
 Use the links given above
 
-📚 Learnings
+📚 **Learnings**
 
 The importance of blending UX strategy with real-world user psychology.
 
@@ -119,7 +119,7 @@ How research-backed design decisions can directly influence business sustainabil
 
 Strengthened teamwork through structured collaboration between designers and developers.
 
-🚀 Future Scope
+🚀 **Future Scope**
 
 Integrate live chat during screenings for real-time engagement.
 
@@ -127,6 +127,6 @@ Add AI-powered recommendations for personalized film discovery.
 
 Enable TIFF+ subscription model for exclusive year-round content.
 
-💬 Authors
+💬 **Authors**
 
 👨‍💻 Dhruv Shah – Web Developer / UX Research Collaborator
