@@ -52,6 +52,13 @@ TIFF is one of the world’s largest public film festivals, with significant cul
 
 We compared TIFF with other major film festivals — Cannes, Sundance, Venice, and Berlinale — identifying opportunities for TIFF to lead in digital accessibility and audience inclusivity.
 
+| **Festival** | **Event Format** | **Accessibility** | **Key Differentiator** |
+|---------------|------------------|--------------------|-------------------------|
+| **TIFF** | Hybrid | Public, global audience | Public voting, diverse selection |
+| **Cannes** | In-person | Invitation-only | Prestige, auteur cinema |
+| **Sundance** | Hybrid | Public + Indie | Indie discovery hub |
+| **Venice** | In-person | Limited | European art-house |
+| **Berlinale** | Hybrid | Public | Social-political focus |
 
 
 👥 Audience Insights
